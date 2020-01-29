@@ -21,8 +21,25 @@ namespace MIPRIMERPROY
         {
             sbyte num1 = sbyte.Parse(txtnum1.Text);
             sbyte num2 = sbyte.Parse(txtnum2.Text);
+            int resp = 0;
+            if (optSuma.Checked) {
+                resp = num1 + num2;
 
-            lblRespuesta.Text = "Respuesta: "+ (num1 + num2);
+            }
+            if (optResta.Checked) {
+                resp = num1 - num2;
+            }
+            if (optMult.Checked)
+            {
+                resp = num1 * num2;
+            
+            }
+
+            if (optDiv.Checked)
+            {
+                resp = num1 / num2;
+            }
+            lblRespuesta.Text = "Respuesta: "+ resp;
         }
     }
 }
