@@ -44,10 +44,10 @@
             // 
             // btnprocess
             // 
-            this.btnprocess.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnprocess.Location = new System.Drawing.Point(86, 123);
+            this.btnprocess.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnprocess.Location = new System.Drawing.Point(102, 123);
             this.btnprocess.Name = "btnprocess";
-            this.btnprocess.Size = new System.Drawing.Size(131, 40);
+            this.btnprocess.Size = new System.Drawing.Size(90, 40);
             this.btnprocess.TabIndex = 0;
             this.btnprocess.Text = "Procesar";
             this.btnprocess.UseVisualStyleBackColor = true;
@@ -88,10 +88,10 @@
             // lblRespuesta
             // 
             this.lblRespuesta.AutoSize = true;
-            this.lblRespuesta.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRespuesta.Location = new System.Drawing.Point(81, 81);
+            this.lblRespuesta.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRespuesta.Location = new System.Drawing.Point(98, 82);
             this.lblRespuesta.Name = "lblRespuesta";
-            this.lblRespuesta.Size = new System.Drawing.Size(139, 25);
+            this.lblRespuesta.Size = new System.Drawing.Size(119, 24);
             this.lblRespuesta.TabIndex = 5;
             this.lblRespuesta.Text = "Respuesta: ?";
             // 
